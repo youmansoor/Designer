@@ -97,6 +97,8 @@ body {
 }
 
 #text button {
+    width: 30%;
+    height: 50px;
     border: 1px solid #b3ff02;
     border-radius: 30px;
     background-color: #1a1a1a;
@@ -107,7 +109,10 @@ body {
 }
 
 #text button:hover {
+    color: #02338f;
     transform: scale(1.1);
+    border: 1px solid #02338f;
+    box-shadow: #012464 0px 0px 20px 10px;
 }
 
 #text button a {
@@ -116,7 +121,9 @@ body {
     font-weight: bold;
     font-size: 1em;
 }
-
+#text button a:hover {
+    color: #02338f;
+}
 /* About Section */
 #about {
     background-color: #0284ff;
